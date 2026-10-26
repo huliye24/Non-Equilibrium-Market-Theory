@@ -8,6 +8,8 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [核心理论](theory/CORE_THEORY.md) | ψ、S、临界状态与可证伪框架 | 活跃研究 |
 | [策略 v4.4](strategies/NEMT_V4_4.md) | 版本化交易策略规范 | 历史验证研究基线；不代表实盘验证 |
 | [v4.4 证据](evidence/NEMT_V4_4_2024_2026.md) | 2024–2026 的已报告验证 | 受原文约束，需核对运行证据 |
+| [v4.4 样本外证据 2022-06~10](evidence/NEMT_V4_4_2022_06_10.md) | 原始标定区间之外的探索性回测 | EXPLORATORY；路由退化，不晋级 |
+| [v4.4 2022 样本外实验报告](experiments/reports/20261026-nemt-v44-2022-oos.md) | 78 次月度回测的完整记录、复现步骤与指纹 | EXPLORATORY |
 | [策略 v5-alpha](strategies/NEMT_V5_WEEKLY_TREND.md) | 周级趋势策略假说 | 未通过 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
