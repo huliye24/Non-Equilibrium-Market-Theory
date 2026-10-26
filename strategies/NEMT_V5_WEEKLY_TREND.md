@@ -114,3 +114,8 @@ v5.2 原文中的“20/55日突破”没有显式定义是否把当根K线并入
 ### v5.2.6 NEMT 临界状态的独立增量（理论检验，未运行）
 
 现有 v5.2 仅报告 `NEMT critical_up/down` 与 Donchian 突破共同许可后的交易表现，不能证明该临界层相对 Donchian 自身带来额外信息。新增[同一突破候选的 NEMT 许可消融研究](../experiments/preregistration/v526-nemt-incremental-information.md)，在固定 20 日突破、60 根退出、风控与执行规则的前提下，对照“Donchian-only”与“Donchian+NEMT”，并记录**全部突破事件**（包括 NEMT 拒绝的候选）的独立虚拟结果。2025 数据已经用于研发，本轮不宣称盲样本外结果、不调整阈值，也不授权交易。
+
+
+### v5.2.7 价格熵相对动量的增量检验（仅理论设计）
+
+[`S` 的历史实现](https://github.com/huliye24/emergenzix/blob/d6962bedb9cf18e927ac9ae768e55eb4a57ea0d9/backend/emergenzix_api/nemt_strategy/nemt_momentum_v2.py) 是窗口内价格直方图的 Shannon 熵，时间重排不会改变它。不能因为 `ψ` 和高熵同时出现，就证明熵提供了超出动量的预测信息。[v5.2.7 独立对照协议](../experiments/preregistration/v527-entropy-incremental-to-psi.md) 仅隔离 `S>0.7` 门槛：A 为 Donchian + 同向 `ψ`，B 在完全相同条件下增加 `S` 门槛。现有 2025 资料不具备新盲测资格；未运行回测，保持原参数及交易权限不变。
