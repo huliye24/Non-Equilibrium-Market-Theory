@@ -27,6 +27,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [ETHUSDT 2024 跨资产五格](experiments/reports/20261026-ethusdt-2024-five-cell.md) | 参数冻结自 BTC，首次换资产（100 → 117.13） | PREREGISTERED；首个删最大赢家仍为正的窗口 |
 | [2022 @10k BTC+ETH](experiments/reports/20261026-2022-10k-btc-eth.md) | 下跌年 + 1 万本金；ETH 每格优于 BTC | EXPLORATORY；规模比例校验通过 |
 | [PR#72 周级 UP-UP 闸门评估](experiments/reports/20261026-pr72-weekly-upup.md) | 8 组合 × 6 格；闸门 2/8 胜；ETH 四年全正 | EXPLORATORY；闸门不采纳 |
+| [风险预算 1%–10% 敏感性](experiments/reports/20261026-risk-sweep-1-to-10.md) | 单笔 5% 可达年 +182%；连亏 15 笔是硬约束 | EXPLORATORY；高风险档不可实盘 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
 
