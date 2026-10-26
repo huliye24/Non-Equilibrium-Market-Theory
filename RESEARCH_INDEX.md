@@ -17,6 +17,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [2021 冻结窗口 E1–E5](experiments/reports/20261026-2021-frozen-battery.md) | 2021 全年五组实验，三年度对照 | PREREGISTERED；门槛在该年未发生作用 |
 | [2024 冻结窗口 E1–E5](experiments/reports/20261026-2024-frozen-battery.md) | 2024 全年五组实验，四年度汇总 | PREREGISTERED（部分污染）；门槛从未显示正增量 |
 | [2026 年初至今 E1–E5](experiments/reports/20261026-2026-ytd-frozen-battery.md) | 2026-01 至 2026-10-25 五组实验，五窗口汇总 | PREREGISTERED（未完成年度）；中位 R 五年恒定 |
+| [2022 冻结窗口 E1–E5](experiments/reports/20261026-2022-frozen-battery.md) | 2022 全年五组实验，六窗口汇总（100 USDT → 102.57） | PREREGISTERED（部分污染）；下跌市仅 +2.57% |
 | [勘误 01](experiments/reports/ERRATUM-01-2026-ytd-ci.md) | 2026 YTD 报告的 CI 措辞错误与计数更正 | 勘误；不改变任何数值与判定 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
