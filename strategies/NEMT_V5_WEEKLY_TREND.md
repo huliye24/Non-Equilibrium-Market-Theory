@@ -49,3 +49,18 @@ LCB(h) = E_w[u(h)] - 0.84 sqrt(Var_w[u(h)] / N_eff)
 `v5-alpha` 在2025全年实验中未通过。当前数学估计受少数极端盈利事件
 影响过大，并产生单边多头许可。因此本规范是待修正研究假设，不是默认
 交易策略，也不允许生成Telegram开单提示。
+
+## v5.1稳健修正
+
+v5.1 对历史R在10%和90%分位截尾，使用180天半衰期降低旧状态权重，
+并将局部相似状态估计向同方向全局先验收缩。许可分数为：
+
+```text
+Score = posterior robust log-growth
+        - statistical uncertainty
+        - 0.10 × downside CVaR
+        - 0.02 × trend maturity
+```
+
+只有 `Score > 0` 才允许首仓。2025实验表明该修正降低了错误许可和回撤，
+但仍未产生正收益，因此v5.1同样没有晋级。
