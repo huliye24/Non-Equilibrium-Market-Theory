@@ -30,6 +30,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [风险预算 1%–10% 敏感性](experiments/reports/20261026-risk-sweep-1-to-10.md) | 单笔 5% 可达年 +182%；连亏 15 笔是硬约束 | EXPLORATORY；高风险档不可实盘 |
 | [10 币横截面 2022–2025](experiments/reports/20261026-cross-section-10-symbols.md) | 8 币首次；33,307 笔；24/40 资产-年份为正 | PREREGISTERED；压线通过 |
 | [为什么收益低：逐笔诊断](experiments/reports/20261026-why-low-return-diagnosis.md) | 699 笔；止损后 76% 继续走；放宽止损无效 | EXPLORATORY；结构性约束 |
+| [概率论上限分析](experiments/reports/20261026-mathematics-of-low-return.md) | 凯利最优 3.5%，理论上限 +14.6%/年；10% 风险理论为负 | EXPLORATORY；边际 t≈2.3 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
 
