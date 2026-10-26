@@ -21,6 +21,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [勘误 01](experiments/reports/ERRATUM-01-2026-ytd-ci.md) | 2026 YTD 报告的 CI 措辞错误与计数更正 | 勘误；不改变任何数值与判定 |
 | [S-003.W 2022 探索性](experiments/reports/20261026-s003w-2022-exploratory.md) | 小资金周级确认单变量消融（100 USDT → 105.35） | EXPLORATORY；周级确认是唯一改善项 |
 | [S-003.W 2022 复现记录](experiments/reports/REPRO-20261026-s003w-2022.md) | 全新目录两次独立运行的逐字节复现 | 复现通过；不改变证据等级 |
+| [S-003.1 2023 账本](experiments/reports/20261026-s0031-2023-ledger.md) | 滚动权益 + 分批记账（100 → 140.89 / 124.98） | EXPLORATORY；复利 +2.81，分批 -15.92 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
 
