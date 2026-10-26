@@ -25,6 +25,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [S-003.1 2025 账本 + arm C](experiments/reports/20261026-s0031-2025-ledger.md) | 滚动权益/分批/平衡止损（100 → 93.67 / 96.92） | EXPLORATORY；全部亏损年 |
 | [S-003.1 2023+2024 五格](experiments/reports/20261026-s0031-2023-2024-five-cell.md) | 含 arm C 的三年矩阵；每年最优配置都不同 | EXPLORATORY；无稳定最优配置 |
 | [ETHUSDT 2024 跨资产五格](experiments/reports/20261026-ethusdt-2024-five-cell.md) | 参数冻结自 BTC，首次换资产（100 → 117.13） | PREREGISTERED；首个删最大赢家仍为正的窗口 |
+| [2022 @10k BTC+ETH](experiments/reports/20261026-2022-10k-btc-eth.md) | 下跌年 + 1 万本金；ETH 每格优于 BTC | EXPLORATORY；规模比例校验通过 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
 
