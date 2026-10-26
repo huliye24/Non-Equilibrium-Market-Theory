@@ -33,6 +33,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [概率论上限分析](experiments/reports/20261026-mathematics-of-low-return.md) | 凯利最优 3.5%，理论上限 +14.6%/年；10% 风险理论为负 | EXPLORATORY；边际 t≈2.3 |
 | [低频/加仓/对冲三臂 + 长空不对称](experiments/reports/20261026-lowfreq-pyramid-hedge.md) | 只做多把凯利上限从 14.7% 提到 46.5% | EXPLORATORY；空单零边际 |
 | [按收益排序的最优可行配置](experiments/reports/20261026-return-maximizing-config.md) | 只做多 2% 风险 3 仓并行：年化 +90.1% | EXPLORATORY；单一路径 |
+| [S-004 臂 A 结果](experiments/reports/20261026-s004-arm-a-result.md) | 稀疏过滤杀掉 0/7 最大赢家，H0 未拒绝 | EXPLORATORY；A 臂否定 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
 
