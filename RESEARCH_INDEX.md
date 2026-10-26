@@ -36,6 +36,7 @@ NEMT 的定位是**可证伪的金融市场理论与版本化交易策略规范*
 | [S-004 臂 A 结果](experiments/reports/20261026-s004-arm-a-result.md) | 稀疏过滤杀掉 0/7 最大赢家，H0 未拒绝 | EXPLORATORY；A 臂否定 |
 | [S-004.A.2 事件级 A/B](experiments/reports/20261026-s004-a2-ab-study.md) | 2,356 候选；top1% 赢家 0/24；总收益为原策略 1/244 | EXPLORATORY；过滤器否决 |
 | [S-004.A.3.2 特征数据集](experiments/reports/20261026-s004-a32-feature-dataset.md) | 2,356 事件 × 4 特征 × 187 周簇；无稳定差异 | EXPLORATORY；INCONCLUSIVE |
+| [S-004.D 市场环境与方向](experiments/reports/20261026-s004-d-market-environment.md) | 四问全 INCONCLUSIVE；利润=5周/178周 | EXPLORATORY；需新行情验证 |
 | [v5 失败实验](evidence/NEMT_V5_2025.md) | 2025 年全年研究观察 | FAIL，必须保留 |
 | [研究治理](theory/RESEARCH_GOVERNANCE.md) | 版本、成本、风控与权限 | 规范 |
 
