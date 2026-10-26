@@ -173,7 +173,7 @@
 
 ## 10. 2021 冻结数据驱动的策略库变体迭代（S-002）
 
-[2021 冻结窗口](../experiments/reports/20261026-2021-frozen-battery.md)显示：73 个 Donchian 突破候选全部通过 NEMT 门槛，Donchian-only 与 Donchian+NEMT 的单账户收益均为 +17.13%；门槛**在这个窗口内没有发挥筛选作用**，不意味着它始终无效。相对地，[2023](../experiments/reports/20261026-2023-frozen-battery.md) 的许可差异为负；最新[2024 冻结窗口](../experiments/reports/20261026-2024-frozen-battery.md)的事件差异仅 +0.28R、CI 包含零，90 个突破中 NEMT 拒绝 10 个，熵仅在 82 个 ψ 同向候选中拒绝 2 个；[2025](../experiments/reports/20261026-v526-incremental-information.md) 的探索性差异为正、但对去重敏感且许可组均值为负。**四年数据都没有稳定证明 NEMT 许可的净增量**；2024 年还存在兄弟策略族研究对市场先验的部分污染，不能把已见数据包装为新盲测。
+[2021 冻结窗口](../experiments/reports/20261026-2021-frozen-battery.md)显示：73 个 Donchian 突破候选全部通过 NEMT 门槛，Donchian-only 与 Donchian+NEMT 的单账户收益均为 +17.13%；门槛**在这个窗口内没有发挥筛选作用**，不意味着它始终无效。相对地，[2023](../experiments/reports/20261026-2023-frozen-battery.md) 的许可差异为负；最新[2024 冻结窗口](../experiments/reports/20261026-2024-frozen-battery.md)的事件差异仅 +0.28R、CI 包含零，90 个突破中 NEMT 拒绝 10 个，熵仅在 82 个 ψ 同向候选中拒绝 2 个；[2025](../experiments/reports/20261026-v526-incremental-information.md) 的探索性差异为正、但对去重敏感且许可组均值为负。最新[2026 年初至今冻结实验](../experiments/reports/20261026-2026-ytd-frozen-battery.md)补充了一个**不完整年度**观察：57 个突破中 NEMT 拒绝 16 个，`Delta_R≈-0.43`、CI 含零；熵在 46 个 ψ 合格候选中仅拒绝 5 个，去重后只剩 1 个拒绝事件。尽管两套单账户账本都为正，仍然不能归因于许可层，且年度未结束、研究先验部分污染，**不能与完整年度收益直接并列比较**。**现有四个完整年度加一个不完整窗口均没有稳定证明 NEMT 许可的净增量**；这些已见数据不能包装成新盲测。
 
 研究策略库新增 [S-002 突破—许可—持仓路径分离研究](candidates/S-002-breakout-gating-and-path.md)，将四种角色明确区分：
 
