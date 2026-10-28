@@ -21,6 +21,7 @@ NEMT 研究市场从相对稳定状态进入临界、趋势扩张与衰减状态
 ## 内容
 
 - [NEMT 核心理论](theory/CORE_THEORY.md)
+- [动态情景穷举与自适应决策（ASDE）](theory/ADAPTIVE_SCENARIO_DECISION.md) — 未验证研究提案与离线参考算法
 - [研究与策略治理](theory/RESEARCH_GOVERNANCE.md)
 - [NEMT v4.4 策略规范](strategies/NEMT_V4_4.md)
 - [NEMT v5 周级趋势价值](strategies/NEMT_V5_WEEKLY_TREND.md)
