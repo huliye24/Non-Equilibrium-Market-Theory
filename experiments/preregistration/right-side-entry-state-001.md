@@ -1,6 +1,6 @@
 # Right-side entry state machine 001
 
-Status: **IMPLEMENTED_RESEARCH_CANDIDATE**  
+Status: **IMPLEMENTED_RESEARCH_CANDIDATE**
 Trading status: **not backtested, not promoted, not connected to orders**
 
 ## Research question
