@@ -47,6 +47,20 @@ These are starting hypotheses, not optimized production settings.
 
 ## Next three experiments (not run in this change)
 
+### Execution and delivery contract
+
+The three experiments will run on the two existing AWS servers, not on the local workstation. Before execution, record each server's region, CPU, memory, GPU, storage, software/runtime versions and assigned role. Use the non-GPU server for data preparation, orchestration, integrity checks and report assembly; use the GPU server only for workloads that actually benefit from GPU acceleration. The same immutable code revision, frozen configuration, dataset manifest and result schema must be used across both machines.
+
+Every run must preserve raw inputs, configuration, logs, trade-level records, aggregate results, figures and checksums in a timestamped experiment directory. Failed arms and null results must remain in the record. A run is not complete merely because a process exits successfully: the artifacts must pass data-integrity, causal-boundary and reproducibility checks.
+
+Each experiment must produce:
+
+1. a paper-style PDF containing method, equations, dataset and cost assumptions, figures, tables, limitations and conclusions;
+2. a Markdown report containing the complete machine-readable result summary, artifact paths, commit/image identifiers and reproducibility commands;
+3. a concise Telegram summary plus the PDF and Markdown report, sent through the existing Hong Kong server Telegram path only after artifact verification.
+
+Telegram delivery is reporting only. It must not place orders, expose credentials or enable LIVE execution. The final combined report must compare all three experiments and state explicitly what was accepted, rejected or left unresolved.
+
 ### Experiment 1 — immediate breakout versus right-side confirmation
 
 Freeze assets, data, costs, sizing, protective risk and the current winning exit. Compare immediate breakout entry with the full state path. Measure net profit, large-winner retention, entry MAE, stop distance, drawdown, stop-loss clusters, deleted-winner robustness and missed opportunity. Win rate is descriptive only.
