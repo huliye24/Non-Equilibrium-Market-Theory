@@ -19,4 +19,14 @@
 
 完整测试：`python -m unittest discover -s experiments/reference -p 'test_*.py'`
 
+## 右侧突破入场状态机
+
+`right_side_entry_state.py` 实现只读取已完成 K 线的研究状态机：
+
+`BREAKOUT_CANDIDATE → STABILIZING → RETEST_HELD → REACCELERATION`
+
+它禁止突破后直接追入；只有回踩守住并再次放量加速后，下一根 K 线开盘才具备研究层入场资格。保护止损锚定回踩低点下方，不设固定止盈。实现不连接交易所、订单或生产信号。
+
+预注册与后续三项实验见 [`../preregistration/right-side-entry-state-001.md`](../preregistration/right-side-entry-state-001.md)。
+
 这是教学与研究参考模型，不是策略验证；概率可能失准，有限压力情景可能遗漏尾部事件，结构变化可能使历史频率失效。跨年度/跨币种复核使用 `run_frozen_battery`：除市场和起始时间外，参数变化会被拒绝，所有数据集结果（包括失败结果）都会保留。
