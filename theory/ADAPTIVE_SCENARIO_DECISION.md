@@ -46,4 +46,4 @@ subject to: margin, cash, position, costs, drawdown and liquidation constraints
 
 穷举的是**有限决策空间**而非无穷市场路径；情景之外的尾部风险不因模型未列出而消失。历史频率不是可靠的未来真实概率。小资金复利同样受交易成本、最小下单量、保证金、可用余额、流动性与清算约束；先审计资金守恒。研究结果必须通过独立验证和人工风险评审才能供 Emergenzix 评估，不因进入此仓库取得 PAPER/LIVE 权限。
 
-参考原型见 [ASDE 离线有限情景示例](../experiments/reference/asde.py)，其**不是训练后的策略，也不用于推断真实 BTC 点位**。
+参考原型见 [ASDE 离线有限情景示例](../experiments/reference/asde.py) 与 [滚动样本外研究接口](../experiments/reference/asde_walk_forward.py)，其**不是训练后的策略，也不用于推断真实 BTC 点位**。滚动接口以依赖注入方式调用 Emergenzix 已审计账本；理论仓库不复制保证金、清算或实盘路由实现。
