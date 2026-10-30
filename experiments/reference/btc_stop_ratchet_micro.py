@@ -108,7 +108,15 @@ def simulate(df: pd.DataFrame, start: pd.Timestamp, end: pd.Timestamp, arm: str,
         if qty > 0 and pending_add and adds < 2:
             entry = _fill_price(float(bar.open), "buy")
             fraction = (0.5, 0.25)[adds]
-            add_qty = min(initial_qty * fraction, cash / (entry * (1 + fee)))
+            open_stop_risk = qty * max(0.0, avg - stop)
+            remaining_risk = max(0.0, equity * 0.01 - open_stop_risk)
+            add_risk_per_unit = max(0.0, entry - stop) + entry * fee * 2
+            risk_quantity = remaining_risk / max(add_risk_per_unit, 1e-12)
+            add_qty = min(
+                initial_qty * fraction,
+                risk_quantity,
+                cash / (entry * (1 + fee)),
+            )
             if add_qty > 0:
                 cost = add_qty * entry * (1 + fee)
                 cash -= cost

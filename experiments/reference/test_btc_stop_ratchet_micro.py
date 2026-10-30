@@ -22,6 +22,8 @@ def test_stop_ratchet_never_has_more_open_risk_than_static_pyramid_on_trend():
     static = simulate(frame, start, end, "B")
     dynamic = simulate(frame, start, end, "C", Trail(2.0, 10, 1.0, 10.0, 1))
     assert dynamic["stop_tightenings"] > 0
+    assert static["max_open_stop_risk"] <= 0.01 + 1e-12
+    assert dynamic["max_open_stop_risk"] <= 0.01 + 1e-12
     assert dynamic["max_open_stop_risk"] <= static["max_open_stop_risk"] + 1e-12
 
 

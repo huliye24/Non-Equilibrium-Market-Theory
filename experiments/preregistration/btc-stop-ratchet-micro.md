@@ -37,6 +37,10 @@ Partial exits are deliberately excluded. They require a later fourth arm.
 A allocates the full risk budget initially. B and C reserve the same maximum
 budget across weights `1 : 0.5 : 0.25`, adding at `+1R` and `+2R`. This avoids
 quietly giving pyramiding a larger planned loss budget.
+At every addition, quantity is capped again by the remaining 1% open stop-risk
+budget using the new fill-to-current-stop distance. A nominal tranche fraction
+can therefore be reduced or rejected; rising price may not silently increase
+the shared planned loss budget.
 
 ## C parameter grid
 
