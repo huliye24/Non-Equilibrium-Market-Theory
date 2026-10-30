@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-11,
+  "maximum_absolute_difference": 8.881784197001252e-16,
+  "compared_values": 60,
+  "matlab_implementation": "matlab-r2023b",
+  "python_report_sha256": "f46cd73fdee849133d90ea9597c6fa4ddd41cfa1b4fd4f15c9dcd5bb5e2b2ba6",
+  "execution_mode": "RESEARCH_ONLY",
+  "live_enabled": false
+}

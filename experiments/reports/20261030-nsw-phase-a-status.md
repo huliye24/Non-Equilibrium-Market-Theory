@@ -1,6 +1,6 @@
 # NSW-v1 Phase A deterministic semantic validation
 
-Status: Python PASS; MATLAB execution blocked by online-license authentication.
+Status: Python PASS; MATLAB PASS; cross-language comparison PASS.
 
 ## Scope
 
@@ -34,9 +34,24 @@ Selected golden values:
 Zero and constant-return inputs correctly return an undefined centroid and
 bandwidth rather than a misleading zero bandwidth.
 
-## MATLAB status
+## MATLAB and cross-language result
 
-The independent MATLAB R2023b files were copied to the research node at:
+The independent MATLAB implementation was executed with the licensed MATLAB
+Online engine, which self-reported `matlab-r2023b`. All 13 frozen semantic
+checks passed. The MATLAB maximum Parseval absolute error was
+`3.3306690738754696e-16`.
+
+MATLAB observations were compared numerically with the immutable Python golden
+report:
+
+- Compared scalar values: 60.
+- Frozen absolute tolerance: `1e-11`.
+- Maximum observed absolute difference: `8.881784197001252e-16`.
+- Cross-language result: PASS.
+- Python report SHA-256:
+  `f46cd73fdee849133d90ea9597c6fa4ddd41cfa1b4fd4f15c9dcd5bb5e2b2ba6`.
+
+The same MATLAB files remain copied to the Ningxia research node at:
 
 ```text
 /home/ubuntu/strokera-matlab-lab/experiments/nsw_phase_a/
@@ -49,25 +64,24 @@ Server file hashes:
 - `run_nsw_phase_a.m`:
   `d74021529ba6f9d0189edd51223effee2199074b7e3010913bba31abc0856a9b`
 
-SSH connectivity and the MATLAB R2023b installation were verified. Batch mode
-cannot check out a license, and the documented online-license flow closes after
-the saved MathWorks credentials are submitted. Consequently MATLAB code has not
-been executed and no cross-language PASS is claimed.
+SSH connectivity and the MATLAB R2023b installation were verified. That node's
+non-interactive batch mode still cannot check out an online license, so this
+phase was executed in MATLAB Online instead. This is an infrastructure
+limitation only; it does not invalidate the independent MATLAB calculation.
 
-When the online license is restored, run:
+When server-side batch licensing is restored, the reproducibility command is:
 
 ```matlab
 cd('/home/ubuntu/strokera-matlab-lab/experiments/nsw_phase_a')
 run_nsw_phase_a('nsw_phase_a_matlab.json')
 ```
 
-Then compare the MATLAB JSON with the Python golden report using
-`compare_nsw_phase_a.py`. The frozen cross-language tolerance is `1e-11`.
+The repository also contains `compare_nsw_phase_a.m`, which performs the frozen
+recursive numeric comparison and writes the comparison artifact.
 
 ## Gate decision
 
-Phase A is not complete because independent MATLAB execution remains pending.
-Do not begin the stochastic synthetic experiment or BTC experiment yet. Restoring
-the MathWorks online license and observing a cross-language PASS is the only next
-action allowed by this phase gate.
+Phase A is complete. Deterministic semantic behavior and Python/MATLAB numerical
+agreement meet the preregistered gate. No stochastic synthetic or BTC experiment
+was run as part of this micro-task.
 
