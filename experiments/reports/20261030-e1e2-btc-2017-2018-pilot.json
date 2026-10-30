@@ -1,0 +1,1040 @@
+{
+  "execution_mode": "RESEARCH_ONLY",
+  "experiment": "E1-E2-BTC-COMPRESSION-2017-2018-PILOT",
+  "live_enabled": false,
+  "provenance": {
+    "bucket": "emergenzix-research-382309211832-cn-northwest-1-an",
+    "manifest_key": "market-data/v2/manifests/snapshot=115066e53df85f6ea0a085169d3943b9e2812dbccfd49e0ae484c7f4f54bf46f/manifest.json",
+    "objects": [
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2017/month=08/part-2d5c853ddcb0c91cb38be231314eabc32d299afc3613d833f2c8e2799ada295d.parquet",
+        "rows": 1424,
+        "sha256": "2d5c853ddcb0c91cb38be231314eabc32d299afc3613d833f2c8e2799ada295d"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2017/month=09/part-ff7cbfbf637c0b71840670c132645b03588c96bcf6e3491d4f0545d949340f33.parquet",
+        "rows": 2852,
+        "sha256": "ff7cbfbf637c0b71840670c132645b03588c96bcf6e3491d4f0545d949340f33"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2017/month=10/part-716bb856d9b549708039f9b32bad2146271fb2b2c5d2628f1adf053ef37e1f21.parquet",
+        "rows": 2976,
+        "sha256": "716bb856d9b549708039f9b32bad2146271fb2b2c5d2628f1adf053ef37e1f21"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2017/month=11/part-4460297a16c8bd7f2c7acc6dd078210677c9f414cde0b4bae6f00a54c49a37fb.parquet",
+        "rows": 2880,
+        "sha256": "4460297a16c8bd7f2c7acc6dd078210677c9f414cde0b4bae6f00a54c49a37fb"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2017/month=12/part-af8e15d6e09df2c69f3d7aa6141725e64745eeabfe9f02ec6789e3cb302116c0.parquet",
+        "rows": 2972,
+        "sha256": "af8e15d6e09df2c69f3d7aa6141725e64745eeabfe9f02ec6789e3cb302116c0"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=01/part-4190bb0ce7d4ea6d1259c5b4c7dfba22c95eebf1673fa8e9c7bdcae90471759d.parquet",
+        "rows": 2969,
+        "sha256": "4190bb0ce7d4ea6d1259c5b4c7dfba22c95eebf1673fa8e9c7bdcae90471759d"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=02/part-8d35816df948ff4fb710f7508416d120f3f33e8c48f28be3e552d388cfc4f399.parquet",
+        "rows": 2472,
+        "sha256": "8d35816df948ff4fb710f7508416d120f3f33e8c48f28be3e552d388cfc4f399"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=03/part-0137a27ceec60f3ec100d94f38d1c97992f97aa308b3da1d486be6a4558a858f.parquet",
+        "rows": 2976,
+        "sha256": "0137a27ceec60f3ec100d94f38d1c97992f97aa308b3da1d486be6a4558a858f"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=04/part-b7016bd02518404ad3d1111823579588ee6f1a208ace04886145d19916b98f1f.parquet",
+        "rows": 2880,
+        "sha256": "b7016bd02518404ad3d1111823579588ee6f1a208ace04886145d19916b98f1f"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=05/part-28cbacc1952585a036f2511eb8cd5b6edb7f96b89eeb505a234fd462e2094649.parquet",
+        "rows": 2976,
+        "sha256": "28cbacc1952585a036f2511eb8cd5b6edb7f96b89eeb505a234fd462e2094649"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=06/part-8d6041755681d0d8bccc68c67051c8a4721352e28216632513eb8a45617ef31a.parquet",
+        "rows": 2833,
+        "sha256": "8d6041755681d0d8bccc68c67051c8a4721352e28216632513eb8a45617ef31a"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=07/part-f08d7abcd4b4c0423c7da068e95e31766e88f9a04f1f85262b39c5d61bcf48e8.parquet",
+        "rows": 2946,
+        "sha256": "f08d7abcd4b4c0423c7da068e95e31766e88f9a04f1f85262b39c5d61bcf48e8"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=08/part-ec2da6e283dcd38d42dacc9e75d5ffb055d7487879b885ae8e86b5d3a5ef9692.parquet",
+        "rows": 2976,
+        "sha256": "ec2da6e283dcd38d42dacc9e75d5ffb055d7487879b885ae8e86b5d3a5ef9692"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=09/part-ceadb672580d1f16377244e199a0d588c99489134ca493ec02033260f0d1b9db.parquet",
+        "rows": 2880,
+        "sha256": "ceadb672580d1f16377244e199a0d588c99489134ca493ec02033260f0d1b9db"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=10/part-77675d748a75bff67e2cbe2c01516b2f324ccd2ae9591add698bc2d663ddc784.parquet",
+        "rows": 2962,
+        "sha256": "77675d748a75bff67e2cbe2c01516b2f324ccd2ae9591add698bc2d663ddc784"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=11/part-17ce18545ee07351f08fd71ce33194bb5ae48214cfb145bd64e0281c23cc3f64.parquet",
+        "rows": 2852,
+        "sha256": "17ce18545ee07351f08fd71ce33194bb5ae48214cfb145bd64e0281c23cc3f64"
+      },
+      {
+        "key": "market-data/v2/silver/exchange=binance/market=spot/symbol=btcusdt/timeframe=15m/year=2018/month=12/part-96c68d995a5d67a88a29edcd5be30d65bbce1dc161f9b1eefb1f0ef6a5f80824.parquet",
+        "rows": 2976,
+        "sha256": "96c68d995a5d67a88a29edcd5be30d65bbce1dc161f9b1eefb1f0ef6a5f80824"
+      }
+    ],
+    "snapshot_id": "115066e53df85f6ea0a085169d3943b9e2812dbccfd49e0ae484c7f4f54bf46f"
+  },
+  "report_sha256": "9f1ce82d38f1e02ababe98cb9d4f6a13fd56a44e534275c69e7ee78e869fe7d5",
+  "results": {
+    "15m": {
+      "bars": 47802,
+      "summary": {
+        "bollinger_bandwidth": {
+          "median_precision_lift": -0.09255623132729168,
+          "positive_lift_windows": 1,
+          "total_events": 223,
+          "windows": 4
+        },
+        "normalized_atr": {
+          "median_precision_lift": -0.14393856036510788,
+          "positive_lift_windows": 0,
+          "total_events": 135,
+          "windows": 4
+        },
+        "spectral_width": {
+          "median_precision_lift": 0.001339148514170413,
+          "positive_lift_windows": 2,
+          "total_events": 889,
+          "windows": 4
+        }
+      },
+      "windows": [
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3091699891264951,
+            "events": 241,
+            "f1": 0.06574216743708268,
+            "false_positive_rate": 0.04643231899265477,
+            "false_positives": 177,
+            "median_lead_bars": 69.0,
+            "precision": 0.26556016597510373,
+            "precision_lift": -0.04360982315139139,
+            "recall": 0.03751465416178194,
+            "true_positives": 64
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5762059162230586,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3091699891264951,
+            "events": 66,
+            "f1": 0.013544018058690746,
+            "false_positive_rate": 0.01416579223504722,
+            "false_positives": 54,
+            "median_lead_bars": 55.0,
+            "precision": 0.18181818181818182,
+            "precision_lift": -0.1273518073083133,
+            "recall": 0.007033997655334115,
+            "true_positives": 12
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.025637774836054613,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3091699891264951,
+            "events": 37,
+            "f1": 0.005737234652897303,
+            "false_positive_rate": 0.008394543546694649,
+            "false_positives": 32,
+            "median_lead_bars": 72.0,
+            "precision": 0.13513513513513514,
+            "precision_lift": -0.17403485399135998,
+            "recall": 0.0029308323563892145,
+            "true_positives": 5
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.006383229263370592,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3472343395567964,
+            "events": 219,
+            "f1": 0.07152557718424626,
+            "false_positive_rate": 0.03742314889067094,
+            "false_positives": 140,
+            "median_lead_bars": 61.0,
+            "precision": 0.3607305936073059,
+            "precision_lift": 0.013496254050509526,
+            "recall": 0.03969849246231156,
+            "true_positives": 79
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5693504817769861,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3472343395567964,
+            "events": 76,
+            "f1": 0.021297192642788,
+            "false_positive_rate": 0.014434643143544507,
+            "false_positives": 54,
+            "median_lead_bars": 67.0,
+            "precision": 0.2894736842105263,
+            "precision_lift": -0.05776065534627006,
+            "recall": 0.011055276381909548,
+            "true_positives": 22
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.01795971007668312,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3472343395567964,
+            "events": 48,
+            "f1": 0.012757605495583905,
+            "false_positive_rate": 0.009355787222667736,
+            "false_positives": 35,
+            "median_lead_bars": 75.0,
+            "precision": 0.2708333333333333,
+            "precision_lift": -0.07640100622346307,
+            "recall": 0.006532663316582915,
+            "true_positives": 13
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.004916276667893634,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.33356927977349143,
+            "events": 189,
+            "f1": 0.05882352941176472,
+            "false_positive_rate": 0.033988316516197555,
+            "false_positives": 128,
+            "median_lead_bars": 52.0,
+            "precision": 0.32275132275132273,
+            "precision_lift": -0.0108179570221687,
+            "recall": 0.032360742705570295,
+            "true_positives": 61
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5723407652809127,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.33356927977349143,
+            "events": 56,
+            "f1": 0.00824317362184441,
+            "false_positive_rate": 0.012745618693574084,
+            "false_positives": 48,
+            "median_lead_bars": 72.0,
+            "precision": 0.14285714285714285,
+            "precision_lift": -0.19071213691634858,
+            "recall": 0.004244031830238726,
+            "true_positives": 8
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.016489764228205677,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.33356927977349143,
+            "events": 45,
+            "f1": 0.0062176165803108805,
+            "false_positive_rate": 0.010355815188528943,
+            "false_positives": 39,
+            "median_lead_bars": 61.5,
+            "precision": 0.13333333333333333,
+            "precision_lift": -0.2002359464401581,
+            "recall": 0.003183023872679045,
+            "true_positives": 6
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.003713448448238655,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3138422667388558,
+            "events": 240,
+            "f1": 0.09196563921172309,
+            "false_positive_rate": 0.03918990005260389,
+            "false_positives": 149,
+            "median_lead_bars": 47.0,
+            "precision": 0.37916666666666665,
+            "precision_lift": 0.06532439992781086,
+            "recall": 0.0523289246693502,
+            "true_positives": 91
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5763299825558046,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3138422667388558,
+            "events": 25,
+            "f1": 0.01020408163265306,
+            "false_positive_rate": 0.004208311415044713,
+            "false_positives": 16,
+            "median_lead_bars": 38.0,
+            "precision": 0.36,
+            "precision_lift": 0.046157733261144196,
+            "recall": 0.005175388154111558,
+            "true_positives": 9
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.009257847704112504,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3138422667388558,
+            "events": 5,
+            "f1": 0.0011467889908256881,
+            "false_positive_rate": 0.0010520778537611783,
+            "false_positives": 4,
+            "median_lead_bars": 30.0,
+            "precision": 0.2,
+            "precision_lift": -0.11384226673885578,
+            "recall": 0.0005750431282346176,
+            "true_positives": 1
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.0030557839564889127,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        }
+      ]
+    },
+    "1h": {
+      "bars": 11946,
+      "summary": {
+        "bollinger_bandwidth": {
+          "median_precision_lift": -0.009696571590486092,
+          "positive_lift_windows": 2,
+          "total_events": 61,
+          "windows": 4
+        },
+        "normalized_atr": {
+          "median_precision_lift": -0.07855019868954655,
+          "positive_lift_windows": 2,
+          "total_events": 22,
+          "windows": 4
+        },
+        "spectral_width": {
+          "median_precision_lift": -0.046198867226125706,
+          "positive_lift_windows": 0,
+          "total_events": 155,
+          "windows": 4
+        }
+      },
+      "windows": [
+        {
+          "metrics": {
+            "base_expansion_rate": 0.30926331145149527,
+            "events": 66,
+            "f1": 0.053061224489795916,
+            "false_positive_rate": 0.0559662090813094,
+            "false_positives": 53,
+            "median_lead_bars": 13.0,
+            "precision": 0.19696969696969696,
+            "precision_lift": -0.11229361448179831,
+            "recall": 0.030660377358490566,
+            "true_positives": 13
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5918646420626146,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.30926331145149527,
+            "events": 19,
+            "f1": 0.02708803611738149,
+            "false_positive_rate": 0.013727560718057022,
+            "false_positives": 13,
+            "median_lead_bars": 21.0,
+            "precision": 0.3157894736842105,
+            "precision_lift": 0.006526162232715238,
+            "recall": 0.014150943396226415,
+            "true_positives": 6
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.057078570904824516,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.30926331145149527,
+            "events": 8,
+            "f1": 0.018518518518518517,
+            "false_positive_rate": 0.004223864836325237,
+            "false_positives": 4,
+            "median_lead_bars": 22.5,
+            "precision": 0.5,
+            "precision_lift": 0.19073668854850473,
+            "recall": 0.009433962264150943,
+            "true_positives": 4
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.014510635284771286,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.35129310344827586,
+            "events": 35,
+            "f1": 0.045801526717557245,
+            "false_positive_rate": 0.02547065337763012,
+            "false_positives": 23,
+            "median_lead_bars": 14.0,
+            "precision": 0.34285714285714286,
+            "precision_lift": -0.008435960591132996,
+            "recall": 0.024539877300613498,
+            "true_positives": 12
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.5706432871054167,
+            "window": 64
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3441011235955056,
+            "events": 22,
+            "f1": 0.02734375,
+            "false_positive_rate": 0.016059957173447537,
+            "false_positives": 15,
+            "median_lead_bars": 17.0,
+            "precision": 0.3181818181818182,
+            "precision_lift": -0.02591930541368742,
+            "recall": 0.014285714285714285,
+            "true_positives": 7
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.04480676856543245,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3441011235955056,
+            "events": 10,
+            "f1": 0.0,
+            "false_positive_rate": 0.010706638115631691,
+            "false_positives": 10,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3441011235955056,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.014396856807976015,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3454810495626822,
+            "events": 34,
+            "f1": 0.04330708661417323,
+            "false_positive_rate": 0.025612472160356347,
+            "false_positives": 23,
+            "median_lead_bars": 16.0,
+            "precision": 0.3235294117647059,
+            "precision_lift": -0.02195163779797632,
+            "recall": 0.023206751054852322,
+            "true_positives": 11
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.5648145800768969,
+            "window": 64
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.33760683760683763,
+            "events": 16,
+            "f1": 0.008163265306122448,
+            "false_positive_rate": 0.015053763440860216,
+            "false_positives": 14,
+            "median_lead_bars": 19.5,
+            "precision": 0.125,
+            "precision_lift": -0.21260683760683763,
+            "recall": 0.004219409282700422,
+            "true_positives": 2
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.031882373086656854,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3555045871559633,
+            "events": 2,
+            "f1": 0.0,
+            "false_positive_rate": 0.002372479240806643,
+            "false_positives": 2,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3555045871559633,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.008776923076923064,
+            "window": 128
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3204460966542751,
+            "events": 20,
+            "f1": 0.022172949002217293,
+            "false_positive_rate": 0.016411378555798686,
+            "false_positives": 15,
+            "median_lead_bars": 14.0,
+            "precision": 0.25,
+            "precision_lift": -0.07044609665427509,
+            "recall": 0.01160092807424594,
+            "true_positives": 5
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5721321026253983,
+            "window": 64
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3204460966542751,
+            "events": 4,
+            "f1": 0.013793103448275862,
+            "false_positive_rate": 0.0010940919037199124,
+            "false_positives": 1,
+            "median_lead_bars": 14.0,
+            "precision": 0.75,
+            "precision_lift": 0.4295539033457249,
+            "recall": 0.0069605568445475635,
+            "true_positives": 3
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.040923886891388504,
+            "window": 64
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3129992737835875,
+            "events": 2,
+            "f1": 0.004618937644341801,
+            "false_positive_rate": 0.0010570824524312897,
+            "false_positives": 1,
+            "median_lead_bars": 2.0,
+            "precision": 0.5,
+            "precision_lift": 0.1870007262164125,
+            "recall": 0.002320185614849188,
+            "true_positives": 1
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.006874526816795673,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        }
+      ]
+    },
+    "4h": {
+      "bars": 2980,
+      "summary": {
+        "bollinger_bandwidth": {
+          "median_precision_lift": -0.3004702194357367,
+          "positive_lift_windows": 1,
+          "total_events": 18,
+          "windows": 4
+        },
+        "normalized_atr": {
+          "median_precision_lift": -0.3206091083246256,
+          "positive_lift_windows": 0,
+          "total_events": 6,
+          "windows": 4
+        },
+        "spectral_width": {
+          "median_precision_lift": -0.09038535276073617,
+          "positive_lift_windows": 0,
+          "total_events": 55,
+          "windows": 4
+        }
+      },
+      "windows": [
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3,
+            "events": 14,
+            "f1": 0.07079646017699116,
+            "false_positive_rate": 0.04329004329004329,
+            "false_positives": 10,
+            "median_lead_bars": 3.5,
+            "precision": 0.2857142857142857,
+            "precision_lift": -0.01428571428571429,
+            "recall": 0.04040404040404041,
+            "true_positives": 4
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.5558701128590309,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3,
+            "events": 4,
+            "f1": 0.0,
+            "false_positive_rate": 0.017316017316017316,
+            "false_positives": 4,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.12910733450165265,
+            "window": 32
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3,
+            "events": 0,
+            "f1": 0.0,
+            "false_positive_rate": 0.0,
+            "false_positives": 0,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.026225467869523608,
+            "window": 64
+          },
+          "selection_start": "2018-03-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-07-01T00:00:00+00:00",
+          "test_start": "2018-05-01T00:00:00+00:00",
+          "train_start": "2017-09-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.334375,
+            "events": 10,
+            "f1": 0.034188034188034185,
+            "false_positive_rate": 0.03755868544600939,
+            "false_positives": 8,
+            "median_lead_bars": 3.0,
+            "precision": 0.2,
+            "precision_lift": -0.13437499999999997,
+            "recall": 0.018691588785046728,
+            "true_positives": 2
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.5898167000633799,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.334375,
+            "events": 8,
+            "f1": 0.06956521739130435,
+            "false_positive_rate": 0.018779342723004695,
+            "false_positives": 4,
+            "median_lead_bars": 3.5,
+            "precision": 0.5,
+            "precision_lift": 0.16562500000000002,
+            "recall": 0.037383177570093455,
+            "true_positives": 4
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.09825237713560987,
+            "window": 32
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3402777777777778,
+            "events": 4,
+            "f1": 0.0,
+            "false_positive_rate": 0.021052631578947368,
+            "false_positives": 4,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3402777777777778,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.02215882957797858,
+            "window": 64
+          },
+          "selection_start": "2018-05-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-09-01T00:00:00+00:00",
+          "test_start": "2018-07-01T00:00:00+00:00",
+          "train_start": "2017-11-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3588957055214724,
+            "events": 16,
+            "f1": 0.07518796992481204,
+            "false_positive_rate": 0.05263157894736842,
+            "false_positives": 11,
+            "median_lead_bars": 4.0,
+            "precision": 0.3125,
+            "precision_lift": -0.046395705521472375,
+            "recall": 0.042735042735042736,
+            "true_positives": 5
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.5653042628542095,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3588957055214724,
+            "events": 4,
+            "f1": 0.0,
+            "false_positive_rate": 0.019138755980861243,
+            "false_positives": 4,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3588957055214724,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.0702550844586884,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.3588957055214724,
+            "events": 2,
+            "f1": 0.0,
+            "false_positive_rate": 0.009569377990430622,
+            "false_positives": 2,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.3588957055214724,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.01787938141248764,
+            "window": 32
+          },
+          "selection_start": "2018-07-01T00:00:00+00:00",
+          "test_end_exclusive": "2018-11-01T00:00:00+00:00",
+          "test_start": "2018-09-01T00:00:00+00:00",
+          "train_start": "2018-01-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.30094043887147337,
+            "events": 15,
+            "f1": 0.03603603603603603,
+            "false_positive_rate": 0.05829596412556054,
+            "false_positives": 13,
+            "median_lead_bars": 4.0,
+            "precision": 0.13333333333333333,
+            "precision_lift": -0.16760710553814004,
+            "recall": 0.020833333333333332,
+            "true_positives": 2
+          },
+          "observable": "spectral_width",
+          "selected": {
+            "quantile": 0.2,
+            "threshold": 0.5627951877961228,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.30094043887147337,
+            "events": 2,
+            "f1": 0.0,
+            "false_positive_rate": 0.008968609865470852,
+            "false_positives": 2,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.30094043887147337,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "bollinger_bandwidth",
+          "selected": {
+            "quantile": 0.3,
+            "threshold": 0.08771570431668271,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        },
+        {
+          "metrics": {
+            "base_expansion_rate": 0.30094043887147337,
+            "events": 0,
+            "f1": 0.0,
+            "false_positive_rate": 0.0,
+            "false_positives": 0,
+            "median_lead_bars": null,
+            "precision": 0.0,
+            "precision_lift": -0.30094043887147337,
+            "recall": 0.0,
+            "true_positives": 0
+          },
+          "observable": "normalized_atr",
+          "selected": {
+            "quantile": 0.1,
+            "threshold": 0.015284681378089724,
+            "window": 32
+          },
+          "selection_start": "2018-09-01T00:00:00+00:00",
+          "test_end_exclusive": "2019-01-01T00:00:00+00:00",
+          "test_start": "2018-11-01T00:00:00+00:00",
+          "train_start": "2018-03-01T00:00:00+00:00"
+        }
+      ]
+    }
+  },
+  "status": "EXPLORATORY"
+}
