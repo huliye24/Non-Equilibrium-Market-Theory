@@ -1,0 +1,134 @@
+{
+  "checks": {
+    "amplitude_bandwidth_invariant": true,
+    "amplitude_centroid_invariant": true,
+    "amplitude_energy_square_law": true,
+    "chirp_span_widens_monotonically": true,
+    "constant_return_is_undefined": true,
+    "dual_frequency_separation_widens": true,
+    "frequency_shift_moves_centroid": true,
+    "frequency_shift_preserves_narrow_bandwidth": true,
+    "modulated_global_scale_bandwidth_invariant": true,
+    "modulated_global_scale_energy_square_law": true,
+    "parseval_error_within_tolerance": true,
+    "white_noise_wider_than_single_tone": true,
+    "zero_energy_is_undefined": true
+  },
+  "config": {
+    "dc_removed": true,
+    "nfft": 64,
+    "overlap": 32,
+    "segment_length": 64,
+    "window": 128,
+    "window_function": "periodic_hann"
+  },
+  "execution_mode": "RESEARCH_ONLY",
+  "experiment": "NSW-V1-PHASE-A-DETERMINISTIC",
+  "implementation": "python-numpy",
+  "live_enabled": false,
+  "max_parseval_error": 8.881784197001252e-16,
+  "observations": {
+    "chirp": [
+      {
+        "nscen_v1": 0.14047110381703326,
+        "nse_v1": 0.499780081489855,
+        "nsw_v1": 0.03175849605209898,
+        "parseval_error": 5.551115123125783e-17
+      },
+      {
+        "nscen_v1": 0.26130014731192464,
+        "nse_v1": 0.4943856957439195,
+        "nsw_v1": 0.08057907617398365,
+        "parseval_error": 5.551115123125783e-17
+      },
+      {
+        "nscen_v1": 0.42254303249916075,
+        "nse_v1": 0.4993580543793556,
+        "nsw_v1": 0.1493018976413105,
+        "parseval_error": 5.551115123125783e-17
+      }
+    ],
+    "constant": {
+      "nscen_v1": null,
+      "nse_v1": 7.52316384526264e-37,
+      "nsw_v1": null,
+      "parseval_error": 0.0
+    },
+    "double_amplitude": {
+      "nscen_v1": 0.125,
+      "nse_v1": 2.0000000000000004,
+      "nsw_v1": 0.018042195912175808,
+      "parseval_error": 0.0
+    },
+    "dual_frequency": [
+      {
+        "nscen_v1": 0.5,
+        "nse_v1": 1.0000000000000004,
+        "nsw_v1": 0.033407655239053084,
+        "parseval_error": 0.0
+      },
+      {
+        "nscen_v1": 0.4999999999999999,
+        "nse_v1": 1.0000000000000016,
+        "nsw_v1": 0.09547032697824663,
+        "parseval_error": 2.220446049250313e-16
+      },
+      {
+        "nscen_v1": 0.5,
+        "nse_v1": 0.9999999999999994,
+        "nsw_v1": 0.18836605541692836,
+        "parseval_error": 1.1102230246251565e-16
+      }
+    ],
+    "half_amplitude": {
+      "nscen_v1": 0.125,
+      "nse_v1": 0.12500000000000003,
+      "nsw_v1": 0.018042195912175808,
+      "parseval_error": 0.0
+    },
+    "high_frequency": {
+      "nscen_v1": 0.5,
+      "nse_v1": 0.5,
+      "nsw_v1": 0.018042195912175808,
+      "parseval_error": 0.0
+    },
+    "low_frequency": {
+      "nscen_v1": 0.125,
+      "nse_v1": 0.5000000000000001,
+      "nsw_v1": 0.018042195912175808,
+      "parseval_error": 0.0
+    },
+    "modulated": {
+      "nscen_v1": 0.2499999940688023,
+      "nse_v1": 0.5900000000000001,
+      "nsw_v1": 0.01894413058106734,
+      "parseval_error": 1.1102230246251565e-16
+    },
+    "modulated_scaled_3x": {
+      "nscen_v1": 0.2499999940688023,
+      "nse_v1": 5.309999999999999,
+      "nsw_v1": 0.018944130581067333,
+      "parseval_error": 8.881784197001252e-16
+    },
+    "single_tone": {
+      "nscen_v1": 0.125,
+      "nse_v1": 0.5000000000000001,
+      "nsw_v1": 0.018042195912175808,
+      "parseval_error": 0.0
+    },
+    "white_noise_seed_20261030": {
+      "nscen_v1": 0.450115455077742,
+      "nse_v1": 0.09039117545412872,
+      "nsw_v1": 0.26547967122764743,
+      "parseval_error": 2.7755575615628914e-17
+    },
+    "zero": {
+      "nscen_v1": null,
+      "nse_v1": 0.0,
+      "nsw_v1": null,
+      "parseval_error": 0.0
+    }
+  },
+  "report_sha256": "f46cd73fdee849133d90ea9597c6fa4ddd41cfa1b4fd4f15c9dcd5bb5e2b2ba6",
+  "status": "PASS"
+}
