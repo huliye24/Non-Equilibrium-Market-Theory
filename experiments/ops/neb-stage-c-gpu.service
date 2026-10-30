@@ -1,0 +1,19 @@
+[Unit]
+Description=NEB exact Stage-C 18+3+3 GPU 15m shard
+After=network-online.target nvidia-persistenced.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/neb-million-grid
+Environment=LD_LIBRARY_PATH=/home/ubuntu/nemt-gpu-vault/.venv/lib/python3.12/site-packages/nvidia/cuda_nvrtc/lib:/home/ubuntu/sonviaf-yue2/.venv/lib/python3.12/site-packages/nvidia/cufft/lib:/home/ubuntu/nemt-gpu-vault/.venv/lib/python3.12/site-packages/nvidia/cublas/lib
+ExecStart=/home/ubuntu/nemt-gpu-vault/.venv/bin/python /home/ubuntu/neb-million-grid/run_neb_stage_c_shard.py --input /home/ubuntu/nemt-gpu-vault/btc-2017-2026.npz --stage-b /home/ubuntu/neb-million-grid/results-gpu15/stage-b-stable-top10.csv.gz --output-dir /home/ubuntu/neb-million-grid/results-stage-c-gpu15 --shard gpu15 --timeframes 15m --gpu --aws-cli /home/ubuntu/sonviaf-awscli/bin/aws --bucket emergenzix-research-382309211832-cn-northwest-1-an --prefix experiments/neb-stage-c-walk-forward/20261030-v1
+Nice=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ubuntu/neb-million-grid
+

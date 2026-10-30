@@ -51,6 +51,21 @@ windows 128, 256, 512, 1024; Hann/rectangular windows; variance bandwidth,
 spectral entropy and low-frequency concentration; and NSW weights 0, .05, .10,
 .15, .20, .30, .40, .50. Weight zero is retained as the nested NEB control.
 
+The materialized grid is not a completed experiment. Exact Stage C uses the
+following frozen rule.  For every rolling fold, causal NEB activation margins
+and spectral observables are mapped to empirical ranks using the 18-month
+training slice only.  A candidate score is `rank(NEB) + weight *
+rank(spectral concentration)`.  Variance bandwidth and spectral entropy are
+sign-reversed so that a higher spectral score always means more concentration;
+low-frequency concentration keeps its sign.  All candidates are compared on
+the three-month selection slice.  The winner is frozen and evaluated exactly
+once on the following three-month test slice.  Weight zero is the same selected
+NEB seed without spectral information and is reported as the paired control.
+
+The Stage C completion gate requires real candidate evaluations and per-fold
+test records.  Merely writing candidate parameters must retain the status
+`STAGE_C_GRID_MATERIALIZED` and must never trigger a completion notification.
+
 ## Time isolation
 
 Each rolling fold uses 18 months training, 3 months parameter selection and 3
