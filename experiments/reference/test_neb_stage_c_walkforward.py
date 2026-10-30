@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from neb_stage_c_walkforward import _metrics, _rank_map, _spectral_features
+from neb_stage_c_walkforward import _metrics, _purge_label_boundary, _rank_map, _spectral_features
 
 
 def test_spectral_features_are_causal_and_finite():
@@ -25,3 +25,11 @@ def test_metrics_detect_incremental_ranking():
     weak = _metrics(y, np.array([0.0, 1.0, 2.0, 3.0]))
     bad = _metrics(y, np.array([3.0, 2.0, 1.0, 0.0]))
     assert weak["pr_auc"] > bad["pr_auc"]
+
+
+def test_forward_labels_are_purged_at_slice_boundary():
+    mask = np.array([False, True, True, True, True, False])
+    np.testing.assert_array_equal(
+        _purge_label_boundary(mask, 2),
+        np.array([False, True, True, False, False, False]),
+    )

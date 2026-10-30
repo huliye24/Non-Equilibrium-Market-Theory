@@ -117,6 +117,15 @@ def _rank_map(train: np.ndarray, values: np.ndarray) -> np.ndarray:
     return (np.searchsorted(reference, values, side="right") / len(reference)).astype(np.float32)
 
 
+def _purge_label_boundary(mask: np.ndarray, horizon: int) -> np.ndarray:
+    """Drop rows whose forward label would cross the end of this slice."""
+    clean = mask.copy()
+    positions = np.flatnonzero(mask)
+    if len(positions):
+        clean[positions[-min(horizon, len(positions)):]] = False
+    return clean
+
+
 def _neb_margin(df: pd.DataFrame, seed: pd.Series, train: np.ndarray) -> np.ndarray:
     n, m, k, slope_k = (int(seed[x]) for x in ("n", "m", "k", "slope_k"))
     z = energy_z(df.close, n, m).astype(np.float64)
@@ -153,18 +162,20 @@ def score_timeframe(df: pd.DataFrame, timeframe: str, stable: pd.DataFrame, use_
         fold_masks = fold_masks[:max_folds]
     results, evaluations = [], 0
     for fold_id, (train, select, test) in enumerate(fold_masks):
+        select_label_mask = _purge_label_boundary(select, horizon)
+        test_label_mask = _purge_label_boundary(test, horizon)
         for rho, group in stable[stable.timeframe == timeframe].groupby("rho"):
             truth = labels(df, horizon, float(rho))
             candidates = group.head(seed_limit).reset_index(drop=True)
             best = None
             for seed_id, seed in candidates.iterrows():
                 margin = _neb_margin(df, seed, train)
-                base_rank_select = _rank_map(margin[train], margin[select])
-                base_rank_test = _rank_map(margin[train], margin[test])
-                y_select, y_test = truth[select], truth[test]
+                base_rank_select = _rank_map(margin[train], margin[select_label_mask])
+                base_rank_test = _rank_map(margin[train], margin[test_label_mask])
+                y_select, y_test = truth[select_label_mask], truth[test_label_mask]
                 for key, spectral in spectra.items():
-                    sr_select = _rank_map(spectral[train], spectral[select])
-                    sr_test = _rank_map(spectral[train], spectral[test])
+                    sr_select = _rank_map(spectral[train], spectral[select_label_mask])
+                    sr_test = _rank_map(spectral[train], spectral[test_label_mask])
                     valid_select = np.isfinite(y_select) & np.isfinite(base_rank_select) & np.isfinite(sr_select)
                     if valid_select.sum() < 30:
                         continue
@@ -181,7 +192,8 @@ def score_timeframe(df: pd.DataFrame, timeframe: str, stable: pd.DataFrame, use_
                 continue
             _, seed_id, seed, key, weight, selection_ap, test_score, y_test = best
             test_metrics = _metrics(y_test, test_score)
-            control_metrics = _metrics(y_test, _rank_map(_neb_margin(df, seed, train)[train], _neb_margin(df, seed, train)[test]))
+            frozen_margin = _neb_margin(df, seed, train)
+            control_metrics = _metrics(y_test, _rank_map(frozen_margin[train], frozen_margin[test_label_mask]))
             width, baseline, method, window_function = key
             results.append({"timeframe": timeframe, "fold": fold_id, "rho": float(rho),
                             "train_start": str(df.index[train][0]), "train_end": str(df.index[train][-1]),
