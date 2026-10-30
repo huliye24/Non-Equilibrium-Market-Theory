@@ -18,6 +18,8 @@ def main() -> None:
     p.add_argument("--bucket", required=True)
     p.add_argument("--manifest-key", required=True)
     p.add_argument("--output", type=Path, required=True)
+    p.add_argument("--start", default="2017-08-17")
+    p.add_argument("--end", default="2027-01-01")
     args = p.parse_args()
     s3 = boto3.client("s3", region_name="cn-northwest-1")
     raw = s3.get_object(Bucket=args.bucket, Key=args.manifest_key)["Body"].read()
@@ -27,7 +29,7 @@ def main() -> None:
         key = item.get("key", "")
         if item.get("timeframe") != "15m" or "symbol=btcusdt" not in key.lower():
             continue
-        if item["last_at"] < "2017-08-17" or item["first_at"] >= "2020-01-01":
+        if item["last_at"] < args.start or item["first_at"] >= args.end:
             continue
         payload = s3.get_object(Bucket=args.bucket, Key=key)["Body"].read()
         digest = hashlib.sha256(payload).hexdigest()

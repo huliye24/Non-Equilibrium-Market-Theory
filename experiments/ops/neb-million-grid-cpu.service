@@ -1,0 +1,18 @@
+[Unit]
+Description=NEB million-grid CPU 1h and 4h shard coordinator
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/neb-million-grid
+ExecStart=/home/ubuntu/moodify-lab/.venv/bin/python /home/ubuntu/neb-million-grid/run_neb_shard_job.py --input /home/ubuntu/nemt-e1e2-pilot/btc-2017-2026.npz --output-dir /home/ubuntu/neb-million-grid/results-cpu1h4h --shard cpu1h4h --timeframes 1h 4h --aws-cli /usr/local/bin/aws --bucket emergenzix-research-382309211832-cn-northwest-1-an --prefix experiments/neb-million-grid/20261030-v1 --coordinator --wait-for-shard gpu15 --relay-key /home/ubuntu/nemt-v1-trial/relay_ed25519 --relay-host root@103.144.246.242 --known-hosts /home/ubuntu/nemt-v1-trial/known_hosts
+Nice=10
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ubuntu/neb-million-grid
+
