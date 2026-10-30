@@ -13,6 +13,12 @@ definitions, and results are not pooled into a single headline score.
 The target is probabilistic. No indicator is required to predict every event.
 Discrimination and calibration are both measured.
 
+Within Group A, `2017-08-17T04:00:00Z` through `2018-06-30T23:59:59Z`
+is the fitting/selection prefix and `2018-07-01T00:00:00Z` through year-end is
+the untouched scoring suffix. Within Group B, January through June 2019 is the
+fitting/selection prefix and July through December 2019 is the untouched scoring
+suffix. These cutoffs are frozen before the 20-indicator run.
+
 ## Frozen data and label
 
 - Binance spot BTCUSDT immutable candle-v2 15-minute S3 snapshot.
